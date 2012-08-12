@@ -184,3 +184,5 @@ if [[ -n "$ZSH_THEME" ]]; then
     echo "[oh-my-zsh] theme '$ZSH_THEME' not found"
   fi
 fi
+
+unsetopt correct_all
